@@ -1,0 +1,33 @@
+- SRE Observability:
+    - Prometheus:
+        icon: prometheus.png
+        href: "http://localhost:9090"
+        description: "Metrics Collection Engine"
+
+    - Grafana:
+        icon: grafana.png
+        href: "http://localhost:3001"
+        description: "Monitoring Dashboards"
+        
+- Infrastructure & Network:
+    - Core Firewall:
+        icon: pfsense.png
+        href: "https://192.168.1.1"
+        description: "Perimeter Firewall & VPN"
+
+    - Edge Router:
+        icon: mikrotik.png
+        href: "https://192.168.1.2"
+        description: "BGP Routing & Gateways"
+
+- SRE Navigation & Management:
+    - SRE Control Hub:
+        icon: nginx.svg
+        href: "https://portal.sre.local:8443"
+        description: "Central Navigation Hub"
+
+    - Traefik Proxy:
+        icon: traefik.svg
+        href: "https://traefik.sre.local:8443/dashboard/"
+        description: "Edge Router & ForwardAuth Metrics"
+

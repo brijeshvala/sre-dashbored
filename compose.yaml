@@ -1,0 +1,92 @@
+services:
+  # Edge Reverse Proxy
+  traefik:
+    image: traefik:v3.1
+    container_name: traefik
+    restart: unless-stopped
+    user: "0:0"
+    security_opt:
+      - label:disable
+    environment:
+      - DOCKER_API_VERSION=1.41   # Forces Traefik to use a stable, compatible API version
+    command:
+      - "--log.level=DEBUG"
+      - "--api.insecure=true"
+      - "--providers.file.filename=/etc/traefik/dynamic.yml"
+      - "--providers.docker=false"
+      - "--providers.docker.exposedbydefault=false"
+      - "--entrypoints.web.address=:80"
+      - "--entrypoints.websecure.address=:443"
+      - "--entrypoints.websecure.forwardedHeaders.insecure=true"
+    ports:
+      - "8000:80"
+      - "8443:443"
+      - "8088:8080"
+    volumes:
+      #- /var/run/docker.sock:/var/run/docker.sock:ro
+      - ./certs:/certs:ro
+      - ./config/traefik/dynamic.yml:/etc/traefik/dynamic.yml:ro
+    networks:
+      - sre_network
+
+  # Login Portal Service
+  authelia:
+    image: authelia/authelia:latest
+    container_name: authelia
+    restart: unless-stopped
+    volumes:
+      - ./config/authelia:/config
+    networks:
+      - sre_network
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.authelia.rule=Host(`auth.sre.local`)"
+      - "traefik.http.routers.authelia.entrypoints=websecure"
+      - "traefik.http.routers.authelia.tls=true"
+      - "traefik.http.services.authelia.loadbalancer.server.port=9091"
+
+  # Standalone Navigation Hub
+  sre-portal:
+    image: nginx:alpine
+    container_name: sre_portal
+    restart: unless-stopped
+    volumes:
+      - ./portal:/usr/share/nginx/html:ro
+    networks:
+      - sre_network
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.portal.rule=Host(`portal.sre.local`)"
+      - "traefik.http.routers.portal.entrypoints=websecure"
+      - "traefik.http.routers.portal.tls=true"
+      - "traefik.http.services.portal.loadbalancer.server.port=80"
+
+  # SRE Dashboard
+  sre-dashboard:
+    image: ghcr.io/gethomepage/homepage:latest
+    container_name: sre_homepage
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./config:/app/config
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+      - ALLOWED_HOSTS=sre.local,sre.local:8443,localhost,127.0.0.1
+      - HOMEPAGE_ALLOWED_HOSTS=sre.local,sre.local:8443,localhost,127.0.0.1
+    networks:
+      - sre_network
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.dashboard.rule=Host(`sre.local`)"
+      - "traefik.http.routers.dashboard.entrypoints=websecure"
+      - "traefik.http.routers.dashboard.tls=true"
+      - "traefik.http.services.dashboard.loadbalancer.server.port=3000"
+
+networks:
+  sre_network:
+    name: sre_ops_network
+    driver: bridge

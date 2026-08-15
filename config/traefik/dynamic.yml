@@ -1,0 +1,83 @@
+tls:
+  certificates:
+    - certFile: /certs/sre.local.crt
+      keyFile: /certs/sre.local.key
+
+http:
+  routers:
+    authelia-router:
+      rule: "Host(`auth.sre.local`)"
+      entryPoints:
+        - websecure
+      service: authelia-service
+      tls: {}
+
+    sre-dashboard-router:
+      rule: "Host(`sre.local`)"
+      entryPoints:
+        - websecure
+      service: sre-dashboard-service
+      middlewares:
+        - authelia-auth
+        - strip-port-header
+      tls: {}
+
+    traefik-dashboard-router:
+      rule: "Host(`traefik.sre.local`)"
+      entryPoints:
+        - websecure
+      service: api@internal
+      middlewares:
+        - authelia-auth
+      tls: {}
+
+    sre-portal-router:
+      rule: "Host(`portal.sre.local`)"
+      entryPoints:
+        - websecure
+      service: sre-portal-service
+      middlewares:
+        - authelia-auth
+      tls: {}
+
+  middlewares:
+    authelia-auth:
+      forwardAuth:
+        address: "http://authelia:9091/api/verify?type=plain&authelia_url=https%3A%2F%2Fauth.sre.local%3A8443"
+        trustForwardHeader: true
+        authResponseHeaders:
+          - "Remote-User"
+          - "Remote-Groups"
+          - "Remote-Name"
+          - "Remote-Email"
+        authRequestHeaders:
+          - "Authorization"
+          - "Cookie"
+          - "X-Forwarded-Method"
+          - "X-Forwarded-Proto"
+          - "X-Forwarded-Host"
+          - "X-Forwarded-Uri"
+          - "X-Forwarded-For"
+
+    strip-port-header:
+      headers:
+        customRequestHeaders:
+          Host: "sre.local"
+          X-Forwarded-Host: "sre.local"
+
+  services:
+    authelia-service:
+      loadBalancer:
+        servers:
+          - url: "http://authelia:9091"
+
+    sre-dashboard-service:
+      loadBalancer:
+        servers:
+          - url: "http://sre_homepage:3000"
+        passHostHeader: true
+
+    sre-portal-service:
+      loadBalancer:
+        servers:
+          - url: "http://sre_portal:80"

@@ -1,0 +1,1855 @@
+[2026-08-13T21:27:45.670Z] info: kubernetes.yaml was copied to the config folder
+[2026-08-13T21:28:07.130Z] info: docker.yaml was copied to the config folder
+[2026-08-13T21:28:07.152Z] info: bookmarks.yaml was copied to the config folder
+[2026-08-13T21:28:07.169Z] info: proxmox.yaml was copied to the config folder
+[2026-08-13T21:28:07.294Z] info: custom.css was copied to the config folder
+[2026-08-13T21:28:07.321Z] info: custom.js was copied to the config folder
+[2026-08-13T21:28:08.887Z] error: <validateWidgetData> Invalid data for widget 'pfsense' endpoint 'v1/status/system':
+Expected:data
+Parse error: SyntaxError: Unexpected token 'O', "OK" is not valid JSON
+Data: {"type":"Buffer","data":[79,75]}
+[2026-08-13T21:28:10.529Z] error: <validateWidgetData> Invalid data for widget 'pfsense' endpoint 'v1/status/interface':
+Expected:data
+Parse error: SyntaxError: Unexpected token 'O', "OK" is not valid JSON
+Data: {"type":"Buffer","data":[79,75]}
+[2026-08-13T21:28:13.782Z] error: <httpProxy> Error calling http://grafana.internal.net:3000/api/admin/stats...
+[2026-08-13T21:28:13.824Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ETIMEDOUT',
+    [errors]: [
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error]
+    ]
+  }
+]
+[2026-08-13T21:28:13.860Z] error: <httpProxy> Error calling http://grafana.internal.net:3000/api/alerts...
+[2026-08-13T21:28:13.871Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ETIMEDOUT',
+    [errors]: [
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error]
+    ]
+  }
+]
+[2026-08-13T21:28:14.013Z] error: <httpProxy> Error calling http://prometheus.internal.net:9090/api/v1/targets...
+[2026-08-13T21:28:14.030Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ETIMEDOUT',
+    [errors]: [
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error]
+    ]
+  }
+]
+[2026-08-13T21:28:14.601Z] error: <httpProxy> Error calling http://grafana.internal.net:3000/api/alertmanager/grafana/api/v2/alerts...
+[2026-08-13T21:28:14.627Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ETIMEDOUT',
+    [errors]: [
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error]
+    ]
+  }
+]
+[2026-08-13T21:28:25.575Z] error: <validateWidgetData> Invalid data for widget 'pfsense' endpoint 'v1/status/interface':
+Expected:data
+Parse error: SyntaxError: Unexpected token 'O', "OK" is not valid JSON
+Data: {"type":"Buffer","data":[79,75]}
+[2026-08-13T21:28:25.617Z] error: <validateWidgetData> Invalid data for widget 'pfsense' endpoint 'v1/status/system':
+Expected:data
+Parse error: SyntaxError: Unexpected token 'O', "OK" is not valid JSON
+Data: {"type":"Buffer","data":[79,75]}
+[2026-08-13T21:28:30.303Z] error: <httpProxy> Error calling http://grafana.internal.net:3000/api/admin/stats...
+[2026-08-13T21:28:30.320Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ETIMEDOUT',
+    [errors]: [
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error]
+    ]
+  }
+]
+[2026-08-13T21:28:30.443Z] error: <httpProxy> Error calling http://prometheus.internal.net:9090/api/v1/targets...
+[2026-08-13T21:28:30.463Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ETIMEDOUT',
+    [errors]: [
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error]
+    ]
+  }
+]
+[2026-08-13T21:28:30.649Z] error: <httpProxy> Error calling http://grafana.internal.net:3000/api/alertmanager/grafana/api/v2/alerts...
+[2026-08-13T21:28:30.671Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ETIMEDOUT',
+    [errors]: [
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error]
+    ]
+  }
+]
+[2026-08-13T21:28:30.677Z] error: <httpProxy> Error calling http://grafana.internal.net:3000/api/alerts...
+[2026-08-13T21:28:30.689Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ETIMEDOUT',
+    [errors]: [
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error]
+    ]
+  }
+]
+[2026-08-13T21:29:30.463Z] error: <validateWidgetData> Invalid data for widget 'pfsense' endpoint 'v1/status/interface':
+Expected:data
+Parse error: SyntaxError: Unexpected token 'O', "OK" is not valid JSON
+Data: {"type":"Buffer","data":[79,75]}
+[2026-08-13T21:29:30.794Z] error: <validateWidgetData> Invalid data for widget 'pfsense' endpoint 'v1/status/system':
+Expected:data
+Parse error: SyntaxError: Unexpected token 'O', "OK" is not valid JSON
+Data: {"type":"Buffer","data":[79,75]}
+[2026-08-13T21:29:34.841Z] error: <httpProxy> Error calling http://grafana.internal.net:3000/api/admin/stats...
+[2026-08-13T21:29:34.879Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ETIMEDOUT',
+    [errors]: [
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error]
+    ]
+  }
+]
+[2026-08-13T21:29:34.890Z] error: <httpProxy> Error calling http://grafana.internal.net:3000/api/alerts...
+[2026-08-13T21:29:34.908Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ETIMEDOUT',
+    [errors]: [
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error]
+    ]
+  }
+]
+[2026-08-13T21:29:35.070Z] error: <httpProxy> Error calling http://prometheus.internal.net:9090/api/v1/targets...
+[2026-08-13T21:29:35.089Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ETIMEDOUT',
+    [errors]: [
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error]
+    ]
+  }
+]
+[2026-08-13T21:29:35.238Z] error: <httpProxy> Error calling http://grafana.internal.net:3000/api/alertmanager/grafana/api/v2/alerts...
+[2026-08-13T21:29:35.268Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ETIMEDOUT',
+    [errors]: [
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error]
+    ]
+  }
+]
+[2026-08-13T21:29:53.061Z] error: <validateWidgetData> Invalid data for widget 'pfsense' endpoint 'v1/status/interface':
+Expected:data
+Parse error: SyntaxError: Unexpected token 'O', "OK" is not valid JSON
+Data: {"type":"Buffer","data":[79,75]}
+[2026-08-13T21:29:53.237Z] error: <validateWidgetData> Invalid data for widget 'pfsense' endpoint 'v1/status/system':
+Expected:data
+Parse error: SyntaxError: Unexpected token 'O', "OK" is not valid JSON
+Data: {"type":"Buffer","data":[79,75]}
+[2026-08-13T21:29:57.793Z] error: <httpProxy> Error calling http://prometheus.internal.net:9090/api/v1/targets...
+[2026-08-13T21:29:57.812Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ETIMEDOUT',
+    [errors]: [
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error]
+    ]
+  }
+]
+[2026-08-13T21:29:58.334Z] error: <httpProxy> Error calling http://grafana.internal.net:3000/api/alerts...
+[2026-08-13T21:29:58.404Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ETIMEDOUT',
+    [errors]: [
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error]
+    ]
+  }
+]
+[2026-08-13T21:29:58.422Z] error: <httpProxy> Error calling http://grafana.internal.net:3000/api/admin/stats...
+[2026-08-13T21:29:58.439Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ETIMEDOUT',
+    [errors]: [
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error]
+    ]
+  }
+]
+[2026-08-13T21:29:58.442Z] error: <httpProxy> Error calling http://grafana.internal.net:3000/api/alertmanager/grafana/api/v2/alerts...
+[2026-08-13T21:29:58.462Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ETIMEDOUT',
+    [errors]: [
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error]
+    ]
+  }
+]
+[2026-08-13T21:29:59.459Z] error: <validateWidgetData> Invalid data for widget 'pfsense' endpoint 'v1/status/system':
+Expected:data
+Parse error: SyntaxError: Unexpected token 'O', "OK" is not valid JSON
+Data: {"type":"Buffer","data":[79,75]}
+[2026-08-13T21:29:59.499Z] error: <validateWidgetData> Invalid data for widget 'pfsense' endpoint 'v1/status/interface':
+Expected:data
+Parse error: SyntaxError: Unexpected token 'O', "OK" is not valid JSON
+Data: {"type":"Buffer","data":[79,75]}
+[2026-08-13T21:30:29.441Z] error: <validateWidgetData> Invalid data for widget 'pfsense' endpoint 'v1/status/interface':
+Expected:data
+Parse error: SyntaxError: Unexpected token 'O', "OK" is not valid JSON
+Data: {"type":"Buffer","data":[79,75]}
+[2026-08-13T21:30:29.445Z] error: <validateWidgetData> Invalid data for widget 'pfsense' endpoint 'v1/status/system':
+Expected:data
+Parse error: SyntaxError: Unexpected token 'O', "OK" is not valid JSON
+Data: {"type":"Buffer","data":[79,75]}
+[2026-08-13T21:30:34.227Z] error: <httpProxy> Error calling http://grafana.internal.net:3000/api/admin/stats...
+[2026-08-13T21:30:34.241Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ETIMEDOUT',
+    [errors]: [
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error]
+    ]
+  }
+]
+[2026-08-13T21:30:34.255Z] error: <httpProxy> Error calling http://grafana.internal.net:3000/api/alerts...
+[2026-08-13T21:30:34.276Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ETIMEDOUT',
+    [errors]: [
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error]
+    ]
+  }
+]
+[2026-08-13T21:30:34.281Z] error: <httpProxy> Error calling http://grafana.internal.net:3000/api/alertmanager/grafana/api/v2/alerts...
+[2026-08-13T21:30:34.295Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ETIMEDOUT',
+    [errors]: [
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error]
+    ]
+  }
+]
+[2026-08-13T21:30:34.621Z] error: <httpProxy> Error calling http://prometheus.internal.net:9090/api/v1/targets...
+[2026-08-13T21:30:34.634Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ETIMEDOUT',
+    [errors]: [
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error]
+    ]
+  }
+]
+[2026-08-13T22:11:30.216Z] error: <validateWidgetData> Invalid data for widget 'pfsense' endpoint 'v1/status/interface':
+Expected:data
+Parse error: SyntaxError: Unexpected token 'O', "OK" is not valid JSON
+Data: {"type":"Buffer","data":[79,75]}
+[2026-08-13T22:11:30.316Z] error: <validateWidgetData> Invalid data for widget 'pfsense' endpoint 'v1/status/system':
+Expected:data
+Parse error: SyntaxError: Unexpected token 'O', "OK" is not valid JSON
+Data: {"type":"Buffer","data":[79,75]}
+[2026-08-13T22:11:34.863Z] error: <httpProxy> Error calling http://grafana.internal.net:3000/api/alerts...
+[2026-08-13T22:11:34.895Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ETIMEDOUT',
+    [errors]: [
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error]
+    ]
+  }
+]
+[2026-08-13T22:11:34.900Z] error: <httpProxy> Error calling http://grafana.internal.net:3000/api/admin/stats...
+[2026-08-13T22:11:34.919Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ETIMEDOUT',
+    [errors]: [
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error]
+    ]
+  }
+]
+[2026-08-13T22:11:34.940Z] error: <httpProxy> Error calling http://grafana.internal.net:3000/api/alertmanager/grafana/api/v2/alerts...
+[2026-08-13T22:11:34.952Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ETIMEDOUT',
+    [errors]: [
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error]
+    ]
+  }
+]
+[2026-08-13T22:11:34.974Z] error: <validateWidgetData> Invalid data for widget 'pfsense' endpoint 'v1/status/interface':
+Expected:data
+Parse error: SyntaxError: Unexpected token 'O', "OK" is not valid JSON
+Data: {"type":"Buffer","data":[79,75]}
+[2026-08-13T22:11:34.984Z] error: <validateWidgetData> Invalid data for widget 'pfsense' endpoint 'v1/status/system':
+Expected:data
+Parse error: SyntaxError: Unexpected token 'O', "OK" is not valid JSON
+Data: {"type":"Buffer","data":[79,75]}
+[2026-08-13T22:11:35.440Z] error: <httpProxy> Error calling http://prometheus.internal.net:9090/api/v1/targets...
+[2026-08-13T22:11:35.450Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ETIMEDOUT',
+    [errors]: [
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error]
+    ]
+  }
+]
+[2026-08-14T09:21:30.593Z] error: <httpProxy> Error calling https://api.github.com/repos/gethomepage/homepage/releases...
+[2026-08-14T09:21:30.625Z] error: <httpProxy> [
+  500,
+  Error: queryAaaa ENODATA api.github.com
+      at ignore-listed frames {
+    errno: undefined,
+    code: 'ENODATA',
+    syscall: 'queryAaaa',
+    hostname: 'api.github.com'
+  }
+]
+[2026-08-14T10:13:01.367Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:13:02.566Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:13:02.600Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:13:02.617Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:13:02.658Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:13:02.682Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:13:02.695Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:13:02.720Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:13:02.740Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:13:02.767Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:13:02.826Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:35:05.291Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:35:06.511Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:35:06.530Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:35:06.555Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:35:06.595Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:35:06.730Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:35:06.762Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:35:06.781Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:35:06.796Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:35:06.830Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:35:06.851Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:35:06.899Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:35:06.940Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:35:56.332Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:35:56.345Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:35:56.365Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:35:57.422Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:35:57.895Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:35:57.938Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:35:57.996Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:35:58.038Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:35:58.061Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:35:58.078Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:35:58.098Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:35:58.114Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:35:58.137Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:35:58.153Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:35:58.163Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:35:58.180Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:36:00.996Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:36:01.303Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:36:01.337Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:36:01.355Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:36:01.365Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:36:01.387Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:36:01.420Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:36:01.458Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:36:01.485Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:36:01.502Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:36:01.539Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:36:01.551Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:36:01.674Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:36:07.380Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:36:07.401Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:36:35.154Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:36:35.169Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T10:36:35.189Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:25:39.886Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:25:40.555Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:25:40.589Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:25:40.633Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:25:40.671Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:25:40.707Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:25:40.744Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:25:40.784Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:25:40.804Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:25:40.857Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:25:40.892Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:25:40.924Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:25:40.984Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:25:44.572Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:25:54.915Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:25:54.936Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:25:54.967Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:26:04.606Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:26:04.628Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:26:04.647Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:27:41.941Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:27:41.958Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:27:41.975Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:27:42.797Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:27:43.199Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:27:43.243Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:27:43.321Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:27:43.363Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:27:43.381Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:27:43.394Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:27:43.416Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:27:43.450Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:27:43.464Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:27:43.505Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:27:43.570Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:27:43.652Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:31:29.543Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:31:30.121Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:31:30.177Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:31:30.236Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:31:30.276Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:31:30.319Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:31:30.353Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:31:30.393Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:31:30.421Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:31:30.446Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:31:30.481Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:31:30.498Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:31:30.569Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:32:05.161Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:32:05.681Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:32:05.704Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:32:05.724Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:32:05.761Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:32:05.786Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:32:05.817Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:32:05.869Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:32:05.922Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:32:05.941Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:32:05.955Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:32:05.999Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:32:06.064Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:32:09.899Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:32:28.186Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:32:28.198Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:32:48.526Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:32:48.539Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:32:49.547Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:42:12.822Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:42:14.075Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:42:14.131Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:42:14.159Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:42:14.193Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:42:14.223Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:42:14.243Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:42:14.262Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:42:14.273Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:42:14.293Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:42:14.313Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:42:14.338Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:42:14.407Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:43:18.076Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:43:18.942Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:43:18.984Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:43:19.013Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:43:19.051Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:43:19.104Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:43:19.139Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:43:19.160Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:43:19.190Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:43:19.221Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:43:19.244Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:43:19.266Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:43:19.331Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:17.243Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:17.304Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:17.460Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:18.103Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:20.073Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:20.097Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:20.127Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:20.183Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:20.212Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:20.238Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:20.309Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:20.408Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:20.495Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:20.534Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:20.553Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:20.606Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:23.220Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:23.975Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:24.001Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:24.040Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:24.080Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:24.131Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:24.162Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:24.188Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:24.212Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:24.230Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:24.279Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:24.313Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:24.428Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:28.136Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:28.856Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:28.943Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:28.984Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:29.014Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:29.069Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:29.099Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:29.117Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:29.127Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:29.138Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:29.153Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:29.165Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:29.423Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:32.433Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:33.172Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:33.192Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:33.217Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:33.237Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:33.266Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:33.298Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:33.334Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:33.366Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:33.392Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:33.455Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:33.527Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:33.694Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:51.260Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T11:46:51.273Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T12:00:50.808Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T12:00:51.311Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T12:00:51.361Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T12:00:51.382Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T12:00:51.429Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T12:00:51.478Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T12:00:51.524Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T12:00:51.559Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T12:00:51.591Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T12:00:51.614Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T12:00:51.655Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T12:00:51.671Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T12:00:51.816Z] error: Host validation failed for: sre.local:8443. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-08-14T12:29:20.589Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '- Infrastructure & Management:\n' +
+        '- SRE Dashboard:\n' +
+        '        icon: homepage.svg\n' +
+        '        href: "https://sre.local:8443"\n' +
+        '        description: "Primary Systems & Services Overview"\n' +
+        '\n' +
+        '    - Traefik Proxy:\n' +
+        '        icon: traefik.svg\n' +
+        '        href: "https://traefik.sre.local:8443/dashboard/"\n' +
+        '        description: "Edge Router & ForwardAuth Metrics"\n' +
+        '        widget:\n' +
+        '          type: traefik\n' +
+        '          url: "http://traefik:8080"\n',
+      position: 178,
+      line: 6,
+      column: 4,
+      snippet: ' 4 |         href: "https://sre.local:8443"\n' +
+        ' 5 |         description: "Primary System ...\n' +
+        ' 6 | \n' +
+        ' 7 |     - Traefik Proxy:\n' +
+        '---------^\n' +
+        ' 8 |         icon: traefik.svg\n' +
+        ' 9 |         href: "https://traefik.sre.l ...'
+    },
+    message: 'bad indentation of a mapping entry (7:5)\n' +
+      '\n' +
+      ' 4 |         href: "https://sre.local:8443"\n' +
+      ' 5 |         description: "Primary System ...\n' +
+      ' 6 | \n' +
+      ' 7 |     - Traefik Proxy:\n' +
+      '---------^\n' +
+      ' 8 |         icon: traefik.svg\n' +
+      ' 9 |         href: "https://traefik.sre.l ...',
+    config: 'services.yaml'
+  }
+]
+[2026-08-14T12:29:21.136Z] error: Failed to load services.yaml, please check for errors
+[2026-08-14T12:29:21.138Z] error: YAMLException: bad indentation of a mapping entry (7:5)
+
+ 4 |         href: "https://sre.local:8443"
+ 5 |         description: "Primary System ...
+ 6 | 
+ 7 |     - Traefik Proxy:
+---------^
+ 8 |         icon: traefik.svg
+ 9 |         href: "https://traefik.sre.l ...
+[2026-08-14T12:29:21.154Z] error: Failed to load services.yaml, please check for errors
+[2026-08-14T12:29:21.156Z] error: YAMLException: bad indentation of a mapping entry (7:5)
+
+ 4 |         href: "https://sre.local:8443"
+ 5 |         description: "Primary System ...
+ 6 | 
+ 7 |     - Traefik Proxy:
+---------^
+ 8 |         icon: traefik.svg
+ 9 |         href: "https://traefik.sre.l ...
+[2026-08-14T12:29:22.427Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '- Infrastructure & Management:\n' +
+        '- SRE Dashboard:\n' +
+        '        icon: homepage.svg\n' +
+        '        href: "https://sre.local:8443"\n' +
+        '        description: "Primary Systems & Services Overview"\n' +
+        '\n' +
+        '    - Traefik Proxy:\n' +
+        '        icon: traefik.svg\n' +
+        '        href: "https://traefik.sre.local:8443/dashboard/"\n' +
+        '        description: "Edge Router & ForwardAuth Metrics"\n' +
+        '        widget:\n' +
+        '          type: traefik\n' +
+        '          url: "http://traefik:8080"\n',
+      position: 178,
+      line: 6,
+      column: 4,
+      snippet: ' 4 |         href: "https://sre.local:8443"\n' +
+        ' 5 |         description: "Primary System ...\n' +
+        ' 6 | \n' +
+        ' 7 |     - Traefik Proxy:\n' +
+        '---------^\n' +
+        ' 8 |         icon: traefik.svg\n' +
+        ' 9 |         href: "https://traefik.sre.l ...'
+    },
+    message: 'bad indentation of a mapping entry (7:5)\n' +
+      '\n' +
+      ' 4 |         href: "https://sre.local:8443"\n' +
+      ' 5 |         description: "Primary System ...\n' +
+      ' 6 | \n' +
+      ' 7 |     - Traefik Proxy:\n' +
+      '---------^\n' +
+      ' 8 |         icon: traefik.svg\n' +
+      ' 9 |         href: "https://traefik.sre.l ...',
+    config: 'services.yaml'
+  }
+]
+[2026-08-14T12:29:22.729Z] error: Failed to load services.yaml, please check for errors
+[2026-08-14T12:29:22.730Z] error: YAMLException: bad indentation of a mapping entry (7:5)
+
+ 4 |         href: "https://sre.local:8443"
+ 5 |         description: "Primary System ...
+ 6 | 
+ 7 |     - Traefik Proxy:
+---------^
+ 8 |         icon: traefik.svg
+ 9 |         href: "https://traefik.sre.l ...
+[2026-08-14T12:29:32.392Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '- Infrastructure & Management:\n' +
+        '- SRE Dashboard:\n' +
+        '        icon: homepage.svg\n' +
+        '        href: "https://sre.local:8443"\n' +
+        '        description: "Primary Systems & Services Overview"\n' +
+        '\n' +
+        '    - Traefik Proxy:\n' +
+        '        icon: traefik.svg\n' +
+        '        href: "https://traefik.sre.local:8443/dashboard/"\n' +
+        '        description: "Edge Router & ForwardAuth Metrics"\n' +
+        '        widget:\n' +
+        '          type: traefik\n' +
+        '          url: "http://traefik:8080"\n',
+      position: 178,
+      line: 6,
+      column: 4,
+      snippet: ' 4 |         href: "https://sre.local:8443"\n' +
+        ' 5 |         description: "Primary System ...\n' +
+        ' 6 | \n' +
+        ' 7 |     - Traefik Proxy:\n' +
+        '---------^\n' +
+        ' 8 |         icon: traefik.svg\n' +
+        ' 9 |         href: "https://traefik.sre.l ...'
+    },
+    message: 'bad indentation of a mapping entry (7:5)\n' +
+      '\n' +
+      ' 4 |         href: "https://sre.local:8443"\n' +
+      ' 5 |         description: "Primary System ...\n' +
+      ' 6 | \n' +
+      ' 7 |     - Traefik Proxy:\n' +
+      '---------^\n' +
+      ' 8 |         icon: traefik.svg\n' +
+      ' 9 |         href: "https://traefik.sre.l ...',
+    config: 'services.yaml'
+  }
+]
+[2026-08-14T12:29:40.719Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '- Infrastructure & Management:\n' +
+        '- SRE Dashboard:\n' +
+        '        icon: homepage.svg\n' +
+        '        href: "https://sre.local:8443"\n' +
+        '        description: "Primary Systems & Services Overview"\n' +
+        '\n' +
+        '    - Traefik Proxy:\n' +
+        '        icon: traefik.svg\n' +
+        '        href: "https://traefik.sre.local:8443/dashboard/"\n' +
+        '        description: "Edge Router & ForwardAuth Metrics"\n' +
+        '        widget:\n' +
+        '          type: traefik\n' +
+        '          url: "http://traefik:8080"\n',
+      position: 178,
+      line: 6,
+      column: 4,
+      snippet: ' 4 |         href: "https://sre.local:8443"\n' +
+        ' 5 |         description: "Primary System ...\n' +
+        ' 6 | \n' +
+        ' 7 |     - Traefik Proxy:\n' +
+        '---------^\n' +
+        ' 8 |         icon: traefik.svg\n' +
+        ' 9 |         href: "https://traefik.sre.l ...'
+    },
+    message: 'bad indentation of a mapping entry (7:5)\n' +
+      '\n' +
+      ' 4 |         href: "https://sre.local:8443"\n' +
+      ' 5 |         description: "Primary System ...\n' +
+      ' 6 | \n' +
+      ' 7 |     - Traefik Proxy:\n' +
+      '---------^\n' +
+      ' 8 |         icon: traefik.svg\n' +
+      ' 9 |         href: "https://traefik.sre.l ...',
+    config: 'services.yaml'
+  }
+]
+[2026-08-14T12:29:54.048Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '- Infrastructure & Management:\n' +
+        '- SRE Dashboard:\n' +
+        '        icon: homepage.svg\n' +
+        '        href: "https://sre.local:8443"\n' +
+        '        description: "Primary Systems & Services Overview"\n' +
+        '\n' +
+        '    - Traefik Proxy:\n' +
+        '        icon: traefik.svg\n' +
+        '        href: "https://traefik.sre.local:8443/dashboard/"\n' +
+        '        description: "Edge Router & ForwardAuth Metrics"\n' +
+        '        widget:\n' +
+        '          type: traefik\n' +
+        '          url: "http://traefik:8080"\n',
+      position: 178,
+      line: 6,
+      column: 4,
+      snippet: ' 4 |         href: "https://sre.local:8443"\n' +
+        ' 5 |         description: "Primary System ...\n' +
+        ' 6 | \n' +
+        ' 7 |     - Traefik Proxy:\n' +
+        '---------^\n' +
+        ' 8 |         icon: traefik.svg\n' +
+        ' 9 |         href: "https://traefik.sre.l ...'
+    },
+    message: 'bad indentation of a mapping entry (7:5)\n' +
+      '\n' +
+      ' 4 |         href: "https://sre.local:8443"\n' +
+      ' 5 |         description: "Primary System ...\n' +
+      ' 6 | \n' +
+      ' 7 |     - Traefik Proxy:\n' +
+      '---------^\n' +
+      ' 8 |         icon: traefik.svg\n' +
+      ' 9 |         href: "https://traefik.sre.l ...',
+    config: 'services.yaml'
+  }
+]
+[2026-08-14T12:32:47.864Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '- Infrastructure & Management:\n' +
+        '- SRE Dashboard:\n' +
+        '        icon: homepage.svg\n' +
+        '        href: "https://sre.local:8443"\n' +
+        '        description: "Primary Systems & Services Overview"\n' +
+        '\n' +
+        '    - Traefik Proxy:\n' +
+        '        icon: traefik.svg\n' +
+        '        href: "https://traefik.sre.local:8443/dashboard/"\n' +
+        '        description: "Edge Router & ForwardAuth Metrics"\n' +
+        '        widget:\n' +
+        '          type: traefik\n' +
+        '          url: "http://traefik:8080"\n',
+      position: 178,
+      line: 6,
+      column: 4,
+      snippet: ' 4 |         href: "https://sre.local:8443"\n' +
+        ' 5 |         description: "Primary System ...\n' +
+        ' 6 | \n' +
+        ' 7 |     - Traefik Proxy:\n' +
+        '---------^\n' +
+        ' 8 |         icon: traefik.svg\n' +
+        ' 9 |         href: "https://traefik.sre.l ...'
+    },
+    message: 'bad indentation of a mapping entry (7:5)\n' +
+      '\n' +
+      ' 4 |         href: "https://sre.local:8443"\n' +
+      ' 5 |         description: "Primary System ...\n' +
+      ' 6 | \n' +
+      ' 7 |     - Traefik Proxy:\n' +
+      '---------^\n' +
+      ' 8 |         icon: traefik.svg\n' +
+      ' 9 |         href: "https://traefik.sre.l ...',
+    config: 'services.yaml'
+  }
+]
+[2026-08-14T12:32:50.979Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '- Infrastructure & Management:\n' +
+        '- SRE Dashboard:\n' +
+        '        icon: homepage.svg\n' +
+        '        href: "https://sre.local:8443"\n' +
+        '        description: "Primary Systems & Services Overview"\n' +
+        '\n' +
+        '    - Traefik Proxy:\n' +
+        '        icon: traefik.svg\n' +
+        '        href: "https://traefik.sre.local:8443/dashboard/"\n' +
+        '        description: "Edge Router & ForwardAuth Metrics"\n' +
+        '        widget:\n' +
+        '          type: traefik\n' +
+        '          url: "http://traefik:8080"\n',
+      position: 178,
+      line: 6,
+      column: 4,
+      snippet: ' 4 |         href: "https://sre.local:8443"\n' +
+        ' 5 |         description: "Primary System ...\n' +
+        ' 6 | \n' +
+        ' 7 |     - Traefik Proxy:\n' +
+        '---------^\n' +
+        ' 8 |         icon: traefik.svg\n' +
+        ' 9 |         href: "https://traefik.sre.l ...'
+    },
+    message: 'bad indentation of a mapping entry (7:5)\n' +
+      '\n' +
+      ' 4 |         href: "https://sre.local:8443"\n' +
+      ' 5 |         description: "Primary System ...\n' +
+      ' 6 | \n' +
+      ' 7 |     - Traefik Proxy:\n' +
+      '---------^\n' +
+      ' 8 |         icon: traefik.svg\n' +
+      ' 9 |         href: "https://traefik.sre.l ...',
+    config: 'services.yaml'
+  }
+]
+[2026-08-14T12:32:51.197Z] error: Failed to load services.yaml, please check for errors
+[2026-08-14T12:32:51.199Z] error: YAMLException: bad indentation of a mapping entry (7:5)
+
+ 4 |         href: "https://sre.local:8443"
+ 5 |         description: "Primary System ...
+ 6 | 
+ 7 |     - Traefik Proxy:
+---------^
+ 8 |         icon: traefik.svg
+ 9 |         href: "https://traefik.sre.l ...
+[2026-08-14T12:32:59.666Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '- Infrastructure & Management:\n' +
+        '- SRE Dashboard:\n' +
+        '        icon: homepage.svg\n' +
+        '        href: "https://sre.local:8443"\n' +
+        '        description: "Primary Systems & Services Overview"\n' +
+        '\n' +
+        '    - Traefik Proxy:\n' +
+        '        icon: traefik.svg\n' +
+        '        href: "https://traefik.sre.local:8443/dashboard/"\n' +
+        '        description: "Edge Router & ForwardAuth Metrics"\n' +
+        '        widget:\n' +
+        '          type: traefik\n' +
+        '          url: "http://traefik:8080"\n',
+      position: 178,
+      line: 6,
+      column: 4,
+      snippet: ' 4 |         href: "https://sre.local:8443"\n' +
+        ' 5 |         description: "Primary System ...\n' +
+        ' 6 | \n' +
+        ' 7 |     - Traefik Proxy:\n' +
+        '---------^\n' +
+        ' 8 |         icon: traefik.svg\n' +
+        ' 9 |         href: "https://traefik.sre.l ...'
+    },
+    message: 'bad indentation of a mapping entry (7:5)\n' +
+      '\n' +
+      ' 4 |         href: "https://sre.local:8443"\n' +
+      ' 5 |         description: "Primary System ...\n' +
+      ' 6 | \n' +
+      ' 7 |     - Traefik Proxy:\n' +
+      '---------^\n' +
+      ' 8 |         icon: traefik.svg\n' +
+      ' 9 |         href: "https://traefik.sre.l ...',
+    config: 'services.yaml'
+  }
+]
+[2026-08-14T12:33:01.117Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '- Infrastructure & Management:\n' +
+        '- SRE Dashboard:\n' +
+        '        icon: homepage.svg\n' +
+        '        href: "https://sre.local:8443"\n' +
+        '        description: "Primary Systems & Services Overview"\n' +
+        '\n' +
+        '    - Traefik Proxy:\n' +
+        '        icon: traefik.svg\n' +
+        '        href: "https://traefik.sre.local:8443/dashboard/"\n' +
+        '        description: "Edge Router & ForwardAuth Metrics"\n' +
+        '        widget:\n' +
+        '          type: traefik\n' +
+        '          url: "http://traefik:8080"\n',
+      position: 178,
+      line: 6,
+      column: 4,
+      snippet: ' 4 |         href: "https://sre.local:8443"\n' +
+        ' 5 |         description: "Primary System ...\n' +
+        ' 6 | \n' +
+        ' 7 |     - Traefik Proxy:\n' +
+        '---------^\n' +
+        ' 8 |         icon: traefik.svg\n' +
+        ' 9 |         href: "https://traefik.sre.l ...'
+    },
+    message: 'bad indentation of a mapping entry (7:5)\n' +
+      '\n' +
+      ' 4 |         href: "https://sre.local:8443"\n' +
+      ' 5 |         description: "Primary System ...\n' +
+      ' 6 | \n' +
+      ' 7 |     - Traefik Proxy:\n' +
+      '---------^\n' +
+      ' 8 |         icon: traefik.svg\n' +
+      ' 9 |         href: "https://traefik.sre.l ...',
+    config: 'services.yaml'
+  }
+]
+[2026-08-14T12:33:01.336Z] error: Failed to load services.yaml, please check for errors
+[2026-08-14T12:33:01.337Z] error: YAMLException: bad indentation of a mapping entry (7:5)
+
+ 4 |         href: "https://sre.local:8443"
+ 5 |         description: "Primary System ...
+ 6 | 
+ 7 |     - Traefik Proxy:
+---------^
+ 8 |         icon: traefik.svg
+ 9 |         href: "https://traefik.sre.l ...
+[2026-08-14T12:33:48.320Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '- Infrastructure & Management:\n' +
+        '- SRE Dashboard:\n' +
+        '        icon: homepage.svg\n' +
+        '        href: "https://sre.local:8443"\n' +
+        '        description: "Primary Systems & Services Overview"\n' +
+        '\n' +
+        '    - Traefik Proxy:\n' +
+        '        icon: traefik.svg\n' +
+        '        href: "https://traefik.sre.local:8443/dashboard/"\n' +
+        '        description: "Edge Router & ForwardAuth Metrics"\n' +
+        '        widget:\n' +
+        '          type: traefik\n' +
+        '          url: "http://traefik:8080"\n',
+      position: 178,
+      line: 6,
+      column: 4,
+      snippet: ' 4 |         href: "https://sre.local:8443"\n' +
+        ' 5 |         description: "Primary System ...\n' +
+        ' 6 | \n' +
+        ' 7 |     - Traefik Proxy:\n' +
+        '---------^\n' +
+        ' 8 |         icon: traefik.svg\n' +
+        ' 9 |         href: "https://traefik.sre.l ...'
+    },
+    message: 'bad indentation of a mapping entry (7:5)\n' +
+      '\n' +
+      ' 4 |         href: "https://sre.local:8443"\n' +
+      ' 5 |         description: "Primary System ...\n' +
+      ' 6 | \n' +
+      ' 7 |     - Traefik Proxy:\n' +
+      '---------^\n' +
+      ' 8 |         icon: traefik.svg\n' +
+      ' 9 |         href: "https://traefik.sre.l ...',
+    config: 'services.yaml'
+  }
+]
+[2026-08-14T12:34:20.596Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '- Infrastructure & Management:\n' +
+        '- SRE Dashboard:\n' +
+        '        icon: homepage.svg\n' +
+        '        href: "https://sre.local:8443"\n' +
+        '        description: "Primary Systems & Services Overview"\n' +
+        '\n' +
+        '    - Traefik Proxy:\n' +
+        '        icon: traefik.svg\n' +
+        '        href: "https://traefik.sre.local:8443/dashboard/"\n' +
+        '        description: "Edge Router & ForwardAuth Metrics"\n' +
+        '        widget:\n' +
+        '          type: traefik\n' +
+        '          url: "http://traefik:8080"\n',
+      position: 178,
+      line: 6,
+      column: 4,
+      snippet: ' 4 |         href: "https://sre.local:8443"\n' +
+        ' 5 |         description: "Primary System ...\n' +
+        ' 6 | \n' +
+        ' 7 |     - Traefik Proxy:\n' +
+        '---------^\n' +
+        ' 8 |         icon: traefik.svg\n' +
+        ' 9 |         href: "https://traefik.sre.l ...'
+    },
+    message: 'bad indentation of a mapping entry (7:5)\n' +
+      '\n' +
+      ' 4 |         href: "https://sre.local:8443"\n' +
+      ' 5 |         description: "Primary System ...\n' +
+      ' 6 | \n' +
+      ' 7 |     - Traefik Proxy:\n' +
+      '---------^\n' +
+      ' 8 |         icon: traefik.svg\n' +
+      ' 9 |         href: "https://traefik.sre.l ...',
+    config: 'services.yaml'
+  }
+]
+[2026-08-14T12:34:29.923Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '- Infrastructure & Management:\n' +
+        '- SRE Dashboard:\n' +
+        '        icon: homepage.svg\n' +
+        '        href: "https://sre.local:8443"\n' +
+        '        description: "Primary Systems & Services Overview"\n' +
+        '\n' +
+        '    - Traefik Proxy:\n' +
+        '        icon: traefik.svg\n' +
+        '        href: "https://traefik.sre.local:8443/dashboard/"\n' +
+        '        description: "Edge Router & ForwardAuth Metrics"\n' +
+        '        widget:\n' +
+        '          type: traefik\n' +
+        '          url: "http://traefik:8080"\n',
+      position: 178,
+      line: 6,
+      column: 4,
+      snippet: ' 4 |         href: "https://sre.local:8443"\n' +
+        ' 5 |         description: "Primary System ...\n' +
+        ' 6 | \n' +
+        ' 7 |     - Traefik Proxy:\n' +
+        '---------^\n' +
+        ' 8 |         icon: traefik.svg\n' +
+        ' 9 |         href: "https://traefik.sre.l ...'
+    },
+    message: 'bad indentation of a mapping entry (7:5)\n' +
+      '\n' +
+      ' 4 |         href: "https://sre.local:8443"\n' +
+      ' 5 |         description: "Primary System ...\n' +
+      ' 6 | \n' +
+      ' 7 |     - Traefik Proxy:\n' +
+      '---------^\n' +
+      ' 8 |         icon: traefik.svg\n' +
+      ' 9 |         href: "https://traefik.sre.l ...',
+    config: 'services.yaml'
+  }
+]
+[2026-08-14T12:34:32.377Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '- Infrastructure & Management:\n' +
+        '- SRE Dashboard:\n' +
+        '        icon: homepage.svg\n' +
+        '        href: "https://sre.local:8443"\n' +
+        '        description: "Primary Systems & Services Overview"\n' +
+        '\n' +
+        '    - Traefik Proxy:\n' +
+        '        icon: traefik.svg\n' +
+        '        href: "https://traefik.sre.local:8443/dashboard/"\n' +
+        '        description: "Edge Router & ForwardAuth Metrics"\n' +
+        '        widget:\n' +
+        '          type: traefik\n' +
+        '          url: "http://traefik:8080"\n',
+      position: 178,
+      line: 6,
+      column: 4,
+      snippet: ' 4 |         href: "https://sre.local:8443"\n' +
+        ' 5 |         description: "Primary System ...\n' +
+        ' 6 | \n' +
+        ' 7 |     - Traefik Proxy:\n' +
+        '---------^\n' +
+        ' 8 |         icon: traefik.svg\n' +
+        ' 9 |         href: "https://traefik.sre.l ...'
+    },
+    message: 'bad indentation of a mapping entry (7:5)\n' +
+      '\n' +
+      ' 4 |         href: "https://sre.local:8443"\n' +
+      ' 5 |         description: "Primary System ...\n' +
+      ' 6 | \n' +
+      ' 7 |     - Traefik Proxy:\n' +
+      '---------^\n' +
+      ' 8 |         icon: traefik.svg\n' +
+      ' 9 |         href: "https://traefik.sre.l ...',
+    config: 'services.yaml'
+  }
+]
+[2026-08-14T12:34:32.871Z] error: Failed to load services.yaml, please check for errors
+[2026-08-14T12:34:32.872Z] error: YAMLException: bad indentation of a mapping entry (7:5)
+
+ 4 |         href: "https://sre.local:8443"
+ 5 |         description: "Primary System ...
+ 6 | 
+ 7 |     - Traefik Proxy:
+---------^
+ 8 |         icon: traefik.svg
+ 9 |         href: "https://traefik.sre.l ...
+[2026-08-14T12:34:51.126Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '- Infrastructure & Management:\n' +
+        '- SRE Dashboard:\n' +
+        '        icon: homepage.svg\n' +
+        '        href: "https://sre.local:8443"\n' +
+        '        description: "Primary Systems & Services Overview"\n' +
+        '\n' +
+        '    - Traefik Proxy:\n' +
+        '        icon: traefik.svg\n' +
+        '        href: "https://traefik.sre.local:8443/dashboard/"\n' +
+        '        description: "Edge Router & ForwardAuth Metrics"\n' +
+        '        widget:\n' +
+        '          type: traefik\n' +
+        '          url: "http://traefik:8080"\n',
+      position: 178,
+      line: 6,
+      column: 4,
+      snippet: ' 4 |         href: "https://sre.local:8443"\n' +
+        ' 5 |         description: "Primary System ...\n' +
+        ' 6 | \n' +
+        ' 7 |     - Traefik Proxy:\n' +
+        '---------^\n' +
+        ' 8 |         icon: traefik.svg\n' +
+        ' 9 |         href: "https://traefik.sre.l ...'
+    },
+    message: 'bad indentation of a mapping entry (7:5)\n' +
+      '\n' +
+      ' 4 |         href: "https://sre.local:8443"\n' +
+      ' 5 |         description: "Primary System ...\n' +
+      ' 6 | \n' +
+      ' 7 |     - Traefik Proxy:\n' +
+      '---------^\n' +
+      ' 8 |         icon: traefik.svg\n' +
+      ' 9 |         href: "https://traefik.sre.l ...',
+    config: 'services.yaml'
+  }
+]
+[2026-08-14T12:46:04.864Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '- Infrastructure & Management:\n' +
+        '- SRE Dashboard:\n' +
+        '        icon: homepage.svg\n' +
+        '        href: "https://sre.local:8443"\n' +
+        '        description: "Primary Systems & Services Overview"\n' +
+        '\n' +
+        '    - Traefik Proxy:\n' +
+        '        icon: traefik.svg\n' +
+        '        href: "https://traefik.sre.local:8443/dashboard/"\n' +
+        '        description: "Edge Router & ForwardAuth Metrics"\n' +
+        '        widget:\n' +
+        '          type: traefik\n' +
+        '          url: "http://traefik:8080"\n',
+      position: 178,
+      line: 6,
+      column: 4,
+      snippet: ' 4 |         href: "https://sre.local:8443"\n' +
+        ' 5 |         description: "Primary System ...\n' +
+        ' 6 | \n' +
+        ' 7 |     - Traefik Proxy:\n' +
+        '---------^\n' +
+        ' 8 |         icon: traefik.svg\n' +
+        ' 9 |         href: "https://traefik.sre.l ...'
+    },
+    message: 'bad indentation of a mapping entry (7:5)\n' +
+      '\n' +
+      ' 4 |         href: "https://sre.local:8443"\n' +
+      ' 5 |         description: "Primary System ...\n' +
+      ' 6 | \n' +
+      ' 7 |     - Traefik Proxy:\n' +
+      '---------^\n' +
+      ' 8 |         icon: traefik.svg\n' +
+      ' 9 |         href: "https://traefik.sre.l ...',
+    config: 'services.yaml'
+  }
+]
+[2026-08-14T12:46:07.390Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '- Infrastructure & Management:\n' +
+        '- SRE Dashboard:\n' +
+        '        icon: homepage.svg\n' +
+        '        href: "https://sre.local:8443"\n' +
+        '        description: "Primary Systems & Services Overview"\n' +
+        '\n' +
+        '    - Traefik Proxy:\n' +
+        '        icon: traefik.svg\n' +
+        '        href: "https://traefik.sre.local:8443/dashboard/"\n' +
+        '        description: "Edge Router & ForwardAuth Metrics"\n' +
+        '        widget:\n' +
+        '          type: traefik\n' +
+        '          url: "http://traefik:8080"\n',
+      position: 178,
+      line: 6,
+      column: 4,
+      snippet: ' 4 |         href: "https://sre.local:8443"\n' +
+        ' 5 |         description: "Primary System ...\n' +
+        ' 6 | \n' +
+        ' 7 |     - Traefik Proxy:\n' +
+        '---------^\n' +
+        ' 8 |         icon: traefik.svg\n' +
+        ' 9 |         href: "https://traefik.sre.l ...'
+    },
+    message: 'bad indentation of a mapping entry (7:5)\n' +
+      '\n' +
+      ' 4 |         href: "https://sre.local:8443"\n' +
+      ' 5 |         description: "Primary System ...\n' +
+      ' 6 | \n' +
+      ' 7 |     - Traefik Proxy:\n' +
+      '---------^\n' +
+      ' 8 |         icon: traefik.svg\n' +
+      ' 9 |         href: "https://traefik.sre.l ...',
+    config: 'services.yaml'
+  }
+]
+[2026-08-14T12:46:07.737Z] error: Failed to load services.yaml, please check for errors
+[2026-08-14T12:46:07.738Z] error: YAMLException: bad indentation of a mapping entry (7:5)
+
+ 4 |         href: "https://sre.local:8443"
+ 5 |         description: "Primary System ...
+ 6 | 
+ 7 |     - Traefik Proxy:
+---------^
+ 8 |         icon: traefik.svg
+ 9 |         href: "https://traefik.sre.l ...
+[2026-08-14T12:46:55.336Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '- Infrastructure & Management:\n' +
+        '- SRE Dashboard:\n' +
+        '        icon: homepage.svg\n' +
+        '        href: "https://sre.local:8443"\n' +
+        '        description: "Primary Systems & Services Overview"\n' +
+        '\n' +
+        '    - Traefik Proxy:\n' +
+        '        icon: traefik.svg\n' +
+        '        href: "https://traefik.sre.local:8443/dashboard/"\n' +
+        '        description: "Edge Router & ForwardAuth Metrics"\n' +
+        '        widget:\n' +
+        '          type: traefik\n' +
+        '          url: "http://traefik:8080"\n',
+      position: 178,
+      line: 6,
+      column: 4,
+      snippet: ' 4 |         href: "https://sre.local:8443"\n' +
+        ' 5 |         description: "Primary System ...\n' +
+        ' 6 | \n' +
+        ' 7 |     - Traefik Proxy:\n' +
+        '---------^\n' +
+        ' 8 |         icon: traefik.svg\n' +
+        ' 9 |         href: "https://traefik.sre.l ...'
+    },
+    message: 'bad indentation of a mapping entry (7:5)\n' +
+      '\n' +
+      ' 4 |         href: "https://sre.local:8443"\n' +
+      ' 5 |         description: "Primary System ...\n' +
+      ' 6 | \n' +
+      ' 7 |     - Traefik Proxy:\n' +
+      '---------^\n' +
+      ' 8 |         icon: traefik.svg\n' +
+      ' 9 |         href: "https://traefik.sre.l ...',
+    config: 'services.yaml'
+  }
+]
+[2026-08-14T12:47:11.492Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '- Infrastructure & Management:\n' +
+        '- SRE Dashboard:\n' +
+        '        icon: homepage.svg\n' +
+        '        href: "https://sre.local:8443"\n' +
+        '        description: "Primary Systems & Services Overview"\n' +
+        '\n' +
+        '    - Traefik Proxy:\n' +
+        '        icon: traefik.svg\n' +
+        '        href: "https://traefik.sre.local:8443/dashboard/"\n' +
+        '        description: "Edge Router & ForwardAuth Metrics"\n' +
+        '        widget:\n' +
+        '          type: traefik\n' +
+        '          url: "http://traefik:8080"\n',
+      position: 178,
+      line: 6,
+      column: 4,
+      snippet: ' 4 |         href: "https://sre.local:8443"\n' +
+        ' 5 |         description: "Primary System ...\n' +
+        ' 6 | \n' +
+        ' 7 |     - Traefik Proxy:\n' +
+        '---------^\n' +
+        ' 8 |         icon: traefik.svg\n' +
+        ' 9 |         href: "https://traefik.sre.l ...'
+    },
+    message: 'bad indentation of a mapping entry (7:5)\n' +
+      '\n' +
+      ' 4 |         href: "https://sre.local:8443"\n' +
+      ' 5 |         description: "Primary System ...\n' +
+      ' 6 | \n' +
+      ' 7 |     - Traefik Proxy:\n' +
+      '---------^\n' +
+      ' 8 |         icon: traefik.svg\n' +
+      ' 9 |         href: "https://traefik.sre.l ...',
+    config: 'services.yaml'
+  }
+]
+[2026-08-14T12:49:47.782Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '- Infrastructure & Management:\n' +
+        '- SRE Dashboard:\n' +
+        '        icon: homepage.svg\n' +
+        '        href: "https://sre.local:8443"\n' +
+        '        description: "Primary Systems & Services Overview"\n' +
+        '\n' +
+        '    - Traefik Proxy:\n' +
+        '        icon: traefik.svg\n' +
+        '        href: "https://traefik.sre.local:8443/dashboard/"\n' +
+        '        description: "Edge Router & ForwardAuth Metrics"\n' +
+        '        widget:\n' +
+        '          type: traefik\n' +
+        '          url: "http://traefik:8080"\n',
+      position: 178,
+      line: 6,
+      column: 4,
+      snippet: ' 4 |         href: "https://sre.local:8443"\n' +
+        ' 5 |         description: "Primary System ...\n' +
+        ' 6 | \n' +
+        ' 7 |     - Traefik Proxy:\n' +
+        '---------^\n' +
+        ' 8 |         icon: traefik.svg\n' +
+        ' 9 |         href: "https://traefik.sre.l ...'
+    },
+    message: 'bad indentation of a mapping entry (7:5)\n' +
+      '\n' +
+      ' 4 |         href: "https://sre.local:8443"\n' +
+      ' 5 |         description: "Primary System ...\n' +
+      ' 6 | \n' +
+      ' 7 |     - Traefik Proxy:\n' +
+      '---------^\n' +
+      ' 8 |         icon: traefik.svg\n' +
+      ' 9 |         href: "https://traefik.sre.l ...',
+    config: 'services.yaml'
+  }
+]
+[2026-08-14T12:50:06.163Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '- Infrastructure & Management:\n' +
+        '- SRE Dashboard:\n' +
+        '        icon: homepage.svg\n' +
+        '        href: "https://sre.local:8443"\n' +
+        '        description: "Primary Systems & Services Overview"\n' +
+        '\n' +
+        '    - Traefik Proxy:\n' +
+        '        icon: traefik.svg\n' +
+        '        href: "https://traefik.sre.local:8443/dashboard/"\n' +
+        '        description: "Edge Router & ForwardAuth Metrics"\n' +
+        '        widget:\n' +
+        '          type: traefik\n' +
+        '          url: "http://traefik:8080"\n',
+      position: 178,
+      line: 6,
+      column: 4,
+      snippet: ' 4 |         href: "https://sre.local:8443"\n' +
+        ' 5 |         description: "Primary System ...\n' +
+        ' 6 | \n' +
+        ' 7 |     - Traefik Proxy:\n' +
+        '---------^\n' +
+        ' 8 |         icon: traefik.svg\n' +
+        ' 9 |         href: "https://traefik.sre.l ...'
+    },
+    message: 'bad indentation of a mapping entry (7:5)\n' +
+      '\n' +
+      ' 4 |         href: "https://sre.local:8443"\n' +
+      ' 5 |         description: "Primary System ...\n' +
+      ' 6 | \n' +
+      ' 7 |     - Traefik Proxy:\n' +
+      '---------^\n' +
+      ' 8 |         icon: traefik.svg\n' +
+      ' 9 |         href: "https://traefik.sre.l ...',
+    config: 'services.yaml'
+  }
+]
+[2026-08-14T12:50:08.139Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '- Infrastructure & Management:\n' +
+        '- SRE Dashboard:\n' +
+        '        icon: homepage.svg\n' +
+        '        href: "https://sre.local:8443"\n' +
+        '        description: "Primary Systems & Services Overview"\n' +
+        '\n' +
+        '    - Traefik Proxy:\n' +
+        '        icon: traefik.svg\n' +
+        '        href: "https://traefik.sre.local:8443/dashboard/"\n' +
+        '        description: "Edge Router & ForwardAuth Metrics"\n' +
+        '        widget:\n' +
+        '          type: traefik\n' +
+        '          url: "http://traefik:8080"\n',
+      position: 178,
+      line: 6,
+      column: 4,
+      snippet: ' 4 |         href: "https://sre.local:8443"\n' +
+        ' 5 |         description: "Primary System ...\n' +
+        ' 6 | \n' +
+        ' 7 |     - Traefik Proxy:\n' +
+        '---------^\n' +
+        ' 8 |         icon: traefik.svg\n' +
+        ' 9 |         href: "https://traefik.sre.l ...'
+    },
+    message: 'bad indentation of a mapping entry (7:5)\n' +
+      '\n' +
+      ' 4 |         href: "https://sre.local:8443"\n' +
+      ' 5 |         description: "Primary System ...\n' +
+      ' 6 | \n' +
+      ' 7 |     - Traefik Proxy:\n' +
+      '---------^\n' +
+      ' 8 |         icon: traefik.svg\n' +
+      ' 9 |         href: "https://traefik.sre.l ...',
+    config: 'services.yaml'
+  }
+]
+[2026-08-14T12:50:08.470Z] error: Failed to load services.yaml, please check for errors
+[2026-08-14T12:50:08.471Z] error: YAMLException: bad indentation of a mapping entry (7:5)
+
+ 4 |         href: "https://sre.local:8443"
+ 5 |         description: "Primary System ...
+ 6 | 
+ 7 |     - Traefik Proxy:
+---------^
+ 8 |         icon: traefik.svg
+ 9 |         href: "https://traefik.sre.l ...
+[2026-08-14T12:50:51.790Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '- Infrastructure & Management:\n' +
+        '- SRE Dashboard:\n' +
+        '        icon: homepage.svg\n' +
+        '        href: "https://sre.local:8443"\n' +
+        '        description: "Primary Systems & Services Overview"\n' +
+        '\n' +
+        '    - Traefik Proxy:\n' +
+        '        icon: traefik.svg\n' +
+        '        href: "https://traefik.sre.local:8443/dashboard/"\n' +
+        '        description: "Edge Router & ForwardAuth Metrics"\n' +
+        '        widget:\n' +
+        '          type: traefik\n' +
+        '          url: "http://traefik:8080"\n',
+      position: 178,
+      line: 6,
+      column: 4,
+      snippet: ' 4 |         href: "https://sre.local:8443"\n' +
+        ' 5 |         description: "Primary System ...\n' +
+        ' 6 | \n' +
+        ' 7 |     - Traefik Proxy:\n' +
+        '---------^\n' +
+        ' 8 |         icon: traefik.svg\n' +
+        ' 9 |         href: "https://traefik.sre.l ...'
+    },
+    message: 'bad indentation of a mapping entry (7:5)\n' +
+      '\n' +
+      ' 4 |         href: "https://sre.local:8443"\n' +
+      ' 5 |         description: "Primary System ...\n' +
+      ' 6 | \n' +
+      ' 7 |     - Traefik Proxy:\n' +
+      '---------^\n' +
+      ' 8 |         icon: traefik.svg\n' +
+      ' 9 |         href: "https://traefik.sre.l ...',
+    config: 'services.yaml'
+  }
+]
+[2026-08-14T12:51:00.156Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '- Infrastructure & Management:\n' +
+        '- SRE Dashboard:\n' +
+        '        icon: homepage.svg\n' +
+        '        href: "https://sre.local:8443"\n' +
+        '        description: "Primary Systems & Services Overview"\n' +
+        '\n' +
+        '    - Traefik Proxy:\n' +
+        '        icon: traefik.svg\n' +
+        '        href: "https://traefik.sre.local:8443/dashboard/"\n' +
+        '        description: "Edge Router & ForwardAuth Metrics"\n' +
+        '        widget:\n' +
+        '          type: traefik\n' +
+        '          url: "http://traefik:8080"\n',
+      position: 178,
+      line: 6,
+      column: 4,
+      snippet: ' 4 |         href: "https://sre.local:8443"\n' +
+        ' 5 |         description: "Primary System ...\n' +
+        ' 6 | \n' +
+        ' 7 |     - Traefik Proxy:\n' +
+        '---------^\n' +
+        ' 8 |         icon: traefik.svg\n' +
+        ' 9 |         href: "https://traefik.sre.l ...'
+    },
+    message: 'bad indentation of a mapping entry (7:5)\n' +
+      '\n' +
+      ' 4 |         href: "https://sre.local:8443"\n' +
+      ' 5 |         description: "Primary System ...\n' +
+      ' 6 | \n' +
+      ' 7 |     - Traefik Proxy:\n' +
+      '---------^\n' +
+      ' 8 |         icon: traefik.svg\n' +
+      ' 9 |         href: "https://traefik.sre.l ...',
+    config: 'services.yaml'
+  }
+]
+[2026-08-14T12:52:17.120Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '- Infrastructure & Management:\n' +
+        '- SRE Dashboard:\n' +
+        '        icon: homepage.svg\n' +
+        '        href: "https://sre.local:8443"\n' +
+        '        description: "Primary Systems & Services Overview"\n' +
+        '\n' +
+        '    - Traefik Proxy:\n' +
+        '        icon: traefik.svg\n' +
+        '        href: "https://traefik.sre.local:8443/dashboard/"\n' +
+        '        description: "Edge Router & ForwardAuth Metrics"\n' +
+        '        widget:\n' +
+        '          type: traefik\n' +
+        '          url: "http://traefik:8080"\n',
+      position: 178,
+      line: 6,
+      column: 4,
+      snippet: ' 4 |         href: "https://sre.local:8443"\n' +
+        ' 5 |         description: "Primary System ...\n' +
+        ' 6 | \n' +
+        ' 7 |     - Traefik Proxy:\n' +
+        '---------^\n' +
+        ' 8 |         icon: traefik.svg\n' +
+        ' 9 |         href: "https://traefik.sre.l ...'
+    },
+    message: 'bad indentation of a mapping entry (7:5)\n' +
+      '\n' +
+      ' 4 |         href: "https://sre.local:8443"\n' +
+      ' 5 |         description: "Primary System ...\n' +
+      ' 6 | \n' +
+      ' 7 |     - Traefik Proxy:\n' +
+      '---------^\n' +
+      ' 8 |         icon: traefik.svg\n' +
+      ' 9 |         href: "https://traefik.sre.l ...',
+    config: 'services.yaml'
+  }
+]
+[2026-08-14T12:52:19.775Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '- Infrastructure & Management:\n' +
+        '- SRE Dashboard:\n' +
+        '        icon: homepage.svg\n' +
+        '        href: "https://sre.local:8443"\n' +
+        '        description: "Primary Systems & Services Overview"\n' +
+        '\n' +
+        '    - Traefik Proxy:\n' +
+        '        icon: traefik.svg\n' +
+        '        href: "https://traefik.sre.local:8443/dashboard/"\n' +
+        '        description: "Edge Router & ForwardAuth Metrics"\n' +
+        '        widget:\n' +
+        '          type: traefik\n' +
+        '          url: "http://traefik:8080"\n',
+      position: 178,
+      line: 6,
+      column: 4,
+      snippet: ' 4 |         href: "https://sre.local:8443"\n' +
+        ' 5 |         description: "Primary System ...\n' +
+        ' 6 | \n' +
+        ' 7 |     - Traefik Proxy:\n' +
+        '---------^\n' +
+        ' 8 |         icon: traefik.svg\n' +
+        ' 9 |         href: "https://traefik.sre.l ...'
+    },
+    message: 'bad indentation of a mapping entry (7:5)\n' +
+      '\n' +
+      ' 4 |         href: "https://sre.local:8443"\n' +
+      ' 5 |         description: "Primary System ...\n' +
+      ' 6 | \n' +
+      ' 7 |     - Traefik Proxy:\n' +
+      '---------^\n' +
+      ' 8 |         icon: traefik.svg\n' +
+      ' 9 |         href: "https://traefik.sre.l ...',
+    config: 'services.yaml'
+  }
+]
+[2026-08-14T12:52:19.924Z] error: Failed to load services.yaml, please check for errors
+[2026-08-14T12:52:19.924Z] error: YAMLException: bad indentation of a mapping entry (7:5)
+
+ 4 |         href: "https://sre.local:8443"
+ 5 |         description: "Primary System ...
+ 6 | 
+ 7 |     - Traefik Proxy:
+---------^
+ 8 |         icon: traefik.svg
+ 9 |         href: "https://traefik.sre.l ...
+[2026-08-14T12:52:22.682Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '- Infrastructure & Management:\n' +
+        '- SRE Dashboard:\n' +
+        '        icon: homepage.svg\n' +
+        '        href: "https://sre.local:8443"\n' +
+        '        description: "Primary Systems & Services Overview"\n' +
+        '\n' +
+        '    - Traefik Proxy:\n' +
+        '        icon: traefik.svg\n' +
+        '        href: "https://traefik.sre.local:8443/dashboard/"\n' +
+        '        description: "Edge Router & ForwardAuth Metrics"\n' +
+        '        widget:\n' +
+        '          type: traefik\n' +
+        '          url: "http://traefik:8080"\n',
+      position: 178,
+      line: 6,
+      column: 4,
+      snippet: ' 4 |         href: "https://sre.local:8443"\n' +
+        ' 5 |         description: "Primary System ...\n' +
+        ' 6 | \n' +
+        ' 7 |     - Traefik Proxy:\n' +
+        '---------^\n' +
+        ' 8 |         icon: traefik.svg\n' +
+        ' 9 |         href: "https://traefik.sre.l ...'
+    },
+    message: 'bad indentation of a mapping entry (7:5)\n' +
+      '\n' +
+      ' 4 |         href: "https://sre.local:8443"\n' +
+      ' 5 |         description: "Primary System ...\n' +
+      ' 6 | \n' +
+      ' 7 |     - Traefik Proxy:\n' +
+      '---------^\n' +
+      ' 8 |         icon: traefik.svg\n' +
+      ' 9 |         href: "https://traefik.sre.l ...',
+    config: 'services.yaml'
+  }
+]
+[2026-08-14T12:52:22.904Z] error: Failed to load services.yaml, please check for errors
+[2026-08-14T12:52:22.905Z] error: YAMLException: bad indentation of a mapping entry (7:5)
+
+ 4 |         href: "https://sre.local:8443"
+ 5 |         description: "Primary System ...
+ 6 | 
+ 7 |     - Traefik Proxy:
+---------^
+ 8 |         icon: traefik.svg
+ 9 |         href: "https://traefik.sre.l ...

@@ -1,0 +1,47 @@
+theme: auto
+
+server:
+  address: "tcp://0.0.0.0:9091"
+
+log:
+  level: info
+
+identity_validation:
+  reset_password:
+    jwt_secret: "a_very_secret_jwt_key_change_me"
+
+session:
+  name: authelia_session
+  secret: "a_very_secret_session_key_change_me"
+  expiration: 3600
+  inactivity: 300
+  cookies:
+    - domain: "sre.local"
+      authelia_url: "https://auth.sre.local:8443"
+      default_redirection_url: "https://sre.local:8443"
+      same_site: lax
+
+storage:
+  encryption_key: "a_very_secret_encryption_key_32bytes_long"
+  local:
+    path: /config/db.sqlite
+
+notifier:
+  filesystem:
+    filename: /config/notification.txt
+
+access_control:
+  default_policy: deny
+  rules:
+    - domain: "auth.sre.local"
+      policy: bypass
+    - domain:
+        - "sre.local"
+        - "*.sre.local"
+      policy: one_factor
+      
+authentication_backend:
+  file:
+    path: /config/users_database.yml
+    password:
+      algorithm: argon2

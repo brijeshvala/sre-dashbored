@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SRE Control Portal</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --card-border: #334155;
+      --accent: #38bdf8;
+      --text: #f8fafc;
+      --subtext: #94a3b8;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    h1 {
+      margin-bottom: 2.5rem;
+      font-size: 2.25rem;
+      color: var(--accent);
+      letter-spacing: -0.025em;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      width: 90%;
+      max-width: 720px;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 1.75rem;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.2s ease-in-out;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: var(--accent);
+      box-shadow: 0 10px 25px -5px rgba(56, 189, 248, 0.2);
+    }
+    .card-icon {
+      font-size: 2rem;
+      margin-bottom: 0.75rem;
+    }
+    .card h2 {
+      margin: 0 0 0.5rem 0;
+      font-size: 1.3rem;
+    }
+    .card p {
+      font-size: 0.875rem;
+      color: var(--subtext);
+      margin: 0;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+  <h1>SRE Control Hub</h1>
+  <div class="grid">
+    <a href="https://sre.local:8443" class="card">
+      <div class="card-icon">📊</div>
+      <h2>SRE Operations Dashboard</h2>
+      <p>View system status, operational services, bookmarks, and node health metrics.</p>
+    </a>
+    <a href="https://traefik.sre.local:8443/dashboard/" class="card">
+      <div class="card-icon">🚦</div>
+      <h2>Traefik Edge Proxy</h2>
+      <p>Manage HTTP routers, load balancing services, entrypoints, and TLS certificates.</p>
+    </a>
+  </div>
+</body>
+</html>
